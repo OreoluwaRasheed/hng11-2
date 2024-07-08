@@ -1,0 +1,148 @@
+.cart {
+  display: flex;
+  gap: 6rem;
+  padding: 2rem;
+}
+
+.cart-left {
+  flex: 3;
+}
+
+.cart-right {
+  flex: 2;
+}
+
+.cart-title {
+  font-size: 2rem;
+}
+.items-title {
+  font-size: 1.25rem;
+  margin-top: 3rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.cart-item-image {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  margin-right: 2rem;
+  border-radius: 0.75rem;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details h3 {
+  font-size: 1rem;
+  margin: 0.75rem 0;
+}
+
+.cart-item-details p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.75rem 0;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-weight: bold;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 5300;
+  background-color: #1bac4b;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.cart-right p {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+
+.cart-right img {
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .cart {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .cart-right {
+    margin-top: 0rem;
+    box-shadow: 11.22px 24.32px 46.77px 0px #5a6cea14;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.add-icon {
+  background-color: #ffffff;
+  border: 2px solid #1bac4b;
+  color: #1bac4b;
+  border-radius: 50%;
+  width: 1.25rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  height: 1.25rem;
+}
+
+.add-address {
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0.75rem 0;
+}
+
+.payment-method span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.payment-subtitle {
+  margin-top: -1.5rem;
+  color: #686868;
+}
